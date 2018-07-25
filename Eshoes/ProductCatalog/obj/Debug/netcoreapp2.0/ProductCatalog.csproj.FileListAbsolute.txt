@@ -1,0 +1,10 @@
+C:\Users\sankalpg\Documents\Microservices\Eshoes\ProductCatalog\bin\Debug\netcoreapp2.0\ProductCatalog.deps.json
+C:\Users\sankalpg\Documents\Microservices\Eshoes\ProductCatalog\bin\Debug\netcoreapp2.0\ProductCatalog.runtimeconfig.json
+C:\Users\sankalpg\Documents\Microservices\Eshoes\ProductCatalog\bin\Debug\netcoreapp2.0\ProductCatalog.runtimeconfig.dev.json
+C:\Users\sankalpg\Documents\Microservices\Eshoes\ProductCatalog\bin\Debug\netcoreapp2.0\ProductCatalog.dll
+C:\Users\sankalpg\Documents\Microservices\Eshoes\ProductCatalog\obj\Debug\netcoreapp2.0\ProductCatalog.csproj.CoreCompileInputs.cache
+C:\Users\sankalpg\Documents\Microservices\Eshoes\ProductCatalog\obj\Debug\netcoreapp2.0\ProductCatalog.AssemblyInfoInputs.cache
+C:\Users\sankalpg\Documents\Microservices\Eshoes\ProductCatalog\obj\Debug\netcoreapp2.0\ProductCatalog.AssemblyInfo.cs
+C:\Users\sankalpg\Documents\Microservices\Eshoes\ProductCatalog\obj\Debug\netcoreapp2.0\ProductCatalog.dll
+C:\Users\sankalpg\Documents\Microservices\Eshoes\ProductCatalog\bin\Debug\netcoreapp2.0\ProductCatalog.pdb
+C:\Users\sankalpg\Documents\Microservices\Eshoes\ProductCatalog\obj\Debug\netcoreapp2.0\ProductCatalog.pdb

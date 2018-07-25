@@ -1,0 +1,10 @@
+C:\Users\sankalpg\Documents\Microservices\ShoesOnContainers\ProfductCatalogAPI\bin\Debug\netcoreapp2.0\ProfductCatalogAPI.deps.json
+C:\Users\sankalpg\Documents\Microservices\ShoesOnContainers\ProfductCatalogAPI\bin\Debug\netcoreapp2.0\ProfductCatalogAPI.runtimeconfig.json
+C:\Users\sankalpg\Documents\Microservices\ShoesOnContainers\ProfductCatalogAPI\bin\Debug\netcoreapp2.0\ProfductCatalogAPI.runtimeconfig.dev.json
+C:\Users\sankalpg\Documents\Microservices\ShoesOnContainers\ProfductCatalogAPI\bin\Debug\netcoreapp2.0\ProfductCatalogAPI.dll
+C:\Users\sankalpg\Documents\Microservices\ShoesOnContainers\ProfductCatalogAPI\bin\Debug\netcoreapp2.0\ProfductCatalogAPI.pdb
+C:\Users\sankalpg\Documents\Microservices\ShoesOnContainers\ProfductCatalogAPI\obj\Debug\netcoreapp2.0\ProfductCatalogAPI.csproj.CoreCompileInputs.cache
+C:\Users\sankalpg\Documents\Microservices\ShoesOnContainers\ProfductCatalogAPI\obj\Debug\netcoreapp2.0\ProfductCatalogAPI.AssemblyInfoInputs.cache
+C:\Users\sankalpg\Documents\Microservices\ShoesOnContainers\ProfductCatalogAPI\obj\Debug\netcoreapp2.0\ProfductCatalogAPI.AssemblyInfo.cs
+C:\Users\sankalpg\Documents\Microservices\ShoesOnContainers\ProfductCatalogAPI\obj\Debug\netcoreapp2.0\ProfductCatalogAPI.dll
+C:\Users\sankalpg\Documents\Microservices\ShoesOnContainers\ProfductCatalogAPI\obj\Debug\netcoreapp2.0\ProfductCatalogAPI.pdb
