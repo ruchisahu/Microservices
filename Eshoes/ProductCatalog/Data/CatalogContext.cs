@@ -37,7 +37,8 @@ namespace ProductCatalog.Data
             builder.ToTable("Catalog");
             builder.Property(c => c.Id)
                 .ForSqlServerUseSequenceHiLo("catalog_hilo")
-                .IsRequired();
+                 
+                 .IsRequired();
             builder.Property(c => c.Name)
                 .IsRequired()
                 .HasMaxLength(50);
