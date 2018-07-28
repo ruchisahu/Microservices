@@ -1,0 +1,11 @@
+services:
+  eventcatalog:
+    build:
+      context: c:\users\sankalpg\source\repos\LetsUnite
+      dockerfile: EventCatalog/Dockerfile
+    environment:
+      ASPNETCORE_ENVIRONMENT: Development
+    image: eventcatalog
+    ports:
+    - target: 80
+version: '3.4'

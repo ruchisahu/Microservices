@@ -1,0 +1,39 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27703.2026
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{850DEC2B-662F-4E40-862B-0FBA0756A50F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Services", "Services", "{BE2C2FB0-AD74-4EBA-9718-0EAE81ED69F9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EventCatalog", "EventCatalog\EventCatalog.csproj", "{D07E3A55-2FB4-4360-9E7D-87FC997F3688}"
+EndProject
+Project("{E53339B2-1760-4266-BCC7-CA923CBCF16C}") = "docker-compose", "docker-compose.dcproj", "{DA47221A-3AF6-4C06-A026-0DE587A2CDC9}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D07E3A55-2FB4-4360-9E7D-87FC997F3688}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D07E3A55-2FB4-4360-9E7D-87FC997F3688}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D07E3A55-2FB4-4360-9E7D-87FC997F3688}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D07E3A55-2FB4-4360-9E7D-87FC997F3688}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DA47221A-3AF6-4C06-A026-0DE587A2CDC9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DA47221A-3AF6-4C06-A026-0DE587A2CDC9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DA47221A-3AF6-4C06-A026-0DE587A2CDC9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DA47221A-3AF6-4C06-A026-0DE587A2CDC9}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{BE2C2FB0-AD74-4EBA-9718-0EAE81ED69F9} = {850DEC2B-662F-4E40-862B-0FBA0756A50F}
+		{D07E3A55-2FB4-4360-9E7D-87FC997F3688} = {BE2C2FB0-AD74-4EBA-9718-0EAE81ED69F9}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {6612E891-BEFA-43F6-A0EF-5F977B690224}
+	EndGlobalSection
+EndGlobal

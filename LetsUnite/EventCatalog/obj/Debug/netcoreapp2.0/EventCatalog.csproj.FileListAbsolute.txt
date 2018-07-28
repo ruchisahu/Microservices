@@ -1,0 +1,10 @@
+c:\users\sankalpg\source\repos\LetsUnite\EventCatalog\bin\Debug\netcoreapp2.0\EventCatalog.deps.json
+c:\users\sankalpg\source\repos\LetsUnite\EventCatalog\bin\Debug\netcoreapp2.0\EventCatalog.runtimeconfig.json
+c:\users\sankalpg\source\repos\LetsUnite\EventCatalog\bin\Debug\netcoreapp2.0\EventCatalog.runtimeconfig.dev.json
+c:\users\sankalpg\source\repos\LetsUnite\EventCatalog\bin\Debug\netcoreapp2.0\EventCatalog.dll
+c:\users\sankalpg\source\repos\LetsUnite\EventCatalog\obj\Debug\netcoreapp2.0\EventCatalog.csproj.CoreCompileInputs.cache
+c:\users\sankalpg\source\repos\LetsUnite\EventCatalog\obj\Debug\netcoreapp2.0\EventCatalog.AssemblyInfoInputs.cache
+c:\users\sankalpg\source\repos\LetsUnite\EventCatalog\obj\Debug\netcoreapp2.0\EventCatalog.AssemblyInfo.cs
+c:\users\sankalpg\source\repos\LetsUnite\EventCatalog\bin\Debug\netcoreapp2.0\EventCatalog.pdb
+c:\users\sankalpg\source\repos\LetsUnite\EventCatalog\obj\Debug\netcoreapp2.0\EventCatalog.dll
+c:\users\sankalpg\source\repos\LetsUnite\EventCatalog\obj\Debug\netcoreapp2.0\EventCatalog.pdb
