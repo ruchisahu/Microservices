@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
+using System.ComponentModel.DataAnnotations.Schema;
 using System.Linq;
 using System.Threading.Tasks;
 
@@ -25,13 +26,15 @@ namespace EventCatalog.Domain
 
         public string Description { get; set; }
 
-        public string Location{ get; set; }
+        public string Location { get; set; }
 
-        public int PlaceId1 { get; set; }
-       // public int TicketId1 { get; set; }
+        [ForeignKey("PlaceId")]
+        public int PlaceId { get; set; }
+        public virtual Place Place { get; set; }
+        //  public int TicketId { get; set; }
 
-        public int TicketI { get; set; }
-        public DateTime EventDate{ get; set; }
+        //  public int TicketI { get; set; }
+        public DateTime EventDate { get; set; }
 
         public Decimal EventPrice { get; set; }
 
@@ -40,10 +43,12 @@ namespace EventCatalog.Domain
         public EventPriceType EventPriceType { get; set; }
 
         public EventCategory EventCategory { get; set; }
-
-        public virtual Place Place { get; set; }
-        public int Ticket { get; internal set; }
-        // public virtual Ticket Ticket { get; set; }
+        [NotMapped]
+      //  public Place Place { get; set; }
+        public User User { get; set; }
+        public List<Ticket> Tickets { get; set; }
+          public int TicketId { get; internal set; }
+          public virtual Ticket Ticket { get; set; }
 
 
 

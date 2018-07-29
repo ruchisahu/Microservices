@@ -1,1 +1,1 @@
-c:\users\sankalpg\source\repos\LetsUnite\obj\Debug\docker-compose.dcproj.CoreCompileInputs.cache
+C:\Users\sankalpg\source\repos\LetsUnite\obj\Debug\docker-compose.dcproj.CoreCompileInputs.cache

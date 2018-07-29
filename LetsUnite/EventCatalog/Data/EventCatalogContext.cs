@@ -33,7 +33,7 @@ namespace EventCatalog.Data
         {
             builder.ToTable("Catalog");
             builder.Property(c => c.EventId)
-                .ForSqlServerUseSequenceHiLo("catalog_hilo")
+                .ForSqlServerUseSequenceHiLo("catalog_hilo1")
                 .IsRequired();
             builder.Property(c => c.EventName)
                 .IsRequired();
@@ -42,11 +42,11 @@ namespace EventCatalog.Data
             builder.Property(c => c.Location)
                 .IsRequired();
 
-            builder.HasOne(c => c.Place)
-                .WithMany()
-                .HasForeignKey(c => c.PlaceId1);
+            builder.Property(c => c.PlaceId)
+                .IsRequired();
 
-            builder.Property(c => c.Ticket)
+
+            builder.Property(c => c.TicketId)
                .IsRequired();
             builder.Property(c => c.EventDate)
                 .IsRequired();
@@ -58,6 +58,8 @@ namespace EventCatalog.Data
                 .IsRequired();
             builder.Property(c => c.EventCategory)
                 .IsRequired();
+            builder.Property(c => c.TicketId)
+               .IsRequired();
 
         }
 
@@ -65,8 +67,8 @@ namespace EventCatalog.Data
         {
              builder.ToTable("User");
             builder.Property(c => c.UserId)
-                .ForSqlServerUseSequenceHiLo("catalog_hilo")
                 .IsRequired();
+                
             builder.Property(c => c.Name)
                 .IsRequired()
                 .HasMaxLength(50);
@@ -79,8 +81,10 @@ namespace EventCatalog.Data
             builder.Property(c => c.BillingAddress)
               .IsRequired()
               .HasMaxLength(100);
+
             builder.Property(c => c.EventId)
-              .IsRequired();
+             .IsRequired()
+             .HasMaxLength(50);
             builder.Property(c => c.TicketId)
                    .IsRequired();
             builder.Property(c => c.CreditCardNo)
