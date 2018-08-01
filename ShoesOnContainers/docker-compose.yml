@@ -1,8 +1,0 @@
-version: '3.4'
-
-services:
-  profductcatalogapi:
-    image: ${DOCKER_REGISTRY}profductcatalogapi
-    build:
-      context: .
-      dockerfile: ProfductCatalogAPI/Dockerfile

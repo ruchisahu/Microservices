@@ -43,7 +43,7 @@ namespace EventCatalog.Domain
         public EventPriceType EventPriceType { get; set; }
 
         public EventCategory EventCategory { get; set; }
-        [NotMapped]
+        
       //  public Place Place { get; set; }
         public User User { get; set; }
         public List<Ticket> Tickets { get; set; }

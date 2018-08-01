@@ -29,16 +29,59 @@ namespace EventCatalog
             services.AddDbContext<EventCatalogContext>(
 
                  options => options.UseSqlServer(Configuration["ConnectionString"]));
-        
+
+            
+
+            services.AddSwaggerGen(options =>
+
+            {
+
+                options.DescribeAllEnumsAsStrings();
+
+                options.SwaggerDoc("v1", new Swashbuckle.AspNetCore.Swagger.Info
+
+                {
+
+                    Title = "EventCatalog",
+
+                    Version = "v1",
+
+                    Description = "Catalog",
+
+                    TermsOfService = "Terms Of Services"
+
+                });
+
+            });
+
         }
+
+    
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
         public void Configure(IApplicationBuilder app, IHostingEnvironment env)
         {
             if (env.IsDevelopment())
+
             {
+
                 app.UseDeveloperExceptionPage();
+
             }
+
+            app.UseSwagger();
+
+
+
+            app.UseSwaggerUI(c =>
+
+            {
+
+                c.SwaggerEndpoint($"/swagger/v1/swagger.json", "EventCatalog");
+
+            });
+
+
 
             app.UseMvc();
         }

@@ -44,8 +44,8 @@ namespace EventCatalog.Data
         {
             return new List<Place>()
             {
-                new Place() { PlaceId=2,Address="Redmond", PlacePrice=200.00M},
-                 new Place() { PlaceId=3,Address="Bellevue", PlacePrice=100.00M}
+              //  new Place() { PlaceId=2,Address="Redmond", PlacePrice=200.00M},
+               //  new Place() { PlaceId=3,Address="Bellevue", PlacePrice=100.00M}
 
             };
         }
@@ -54,9 +54,9 @@ namespace EventCatalog.Data
             return new List<Ticket>()
             {
 
-                 new Ticket() { TicketId=2},
-                 new Ticket() { TicketId=3},
-                 new Ticket() { TicketId=4}
+               //  new Ticket() { TicketId=2},
+              //   new Ticket() { TicketId=3},
+              //   new Ticket() { TicketId=4}
 
             };
             
@@ -68,7 +68,7 @@ namespace EventCatalog.Data
             return new List<User>()
             {
 
-                new User() { UserId=2, Password= "a",Email="test1@test1",Name="joe",BillingAddress="address1",TicketId=1, CreditCardNo=456,EventId=1},
+              //  new User() { UserId=2, Password= "a",Email="test1@test1",Name="joe",BillingAddress="address1",TicketId=1, CreditCardNo=456,EventId=1},
 
             };
         }
@@ -93,7 +93,7 @@ namespace EventCatalog.Data
             DateTime date1 = new DateTime(2014, 6, 14, 6, 32, 0);
             return new List<Eventcatalog>()
             {
-               new Eventcatalog() {EventName="event1",Description="",Location="redmond",PlaceId=1,EventDate=date1,EventPrice=101.2M,EventImageURL="https://github.com/ruchisahu/dataAnalysis_cloud9/blob/master/age.png",EventPriceType=EventPriceType.Free,EventCategory=EventCategory.Fashion},
+            //   new Eventcatalog() {EventName="event1",Description="",Location="redmond",PlaceId=1,EventDate=date1,EventPrice=101.2M,EventImageURL="https://github.com/ruchisahu/dataAnalysis_cloud9/blob/master/age.png",EventPriceType=EventPriceType.Free,EventCategory=EventCategory.Fashion},
 
             };
         }
