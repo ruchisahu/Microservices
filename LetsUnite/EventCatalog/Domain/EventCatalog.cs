@@ -31,9 +31,7 @@ namespace EventCatalog.Domain
         [ForeignKey("PlaceId")]
         public int PlaceId { get; set; }
         public virtual Place Place { get; set; }
-        //  public int TicketId { get; set; }
-
-        //  public int TicketI { get; set; }
+    
         public DateTime EventDate { get; set; }
 
         public Decimal EventPrice { get; set; }
@@ -44,9 +42,10 @@ namespace EventCatalog.Domain
 
         public EventCategory EventCategory { get; set; }
         
-      //  public Place Place { get; set; }
-        public User User { get; set; }
-        public List<Ticket> Tickets { get; set; }
+   
+     // public int UserId { get; set; }
+     //   public virtual User User { get; set; }
+      //  public List<Ticket> Tickets { get; set; }
           public int TicketId { get; internal set; }
           public virtual Ticket Ticket { get; set; }
 

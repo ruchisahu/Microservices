@@ -44,8 +44,8 @@ namespace EventCatalog.Data
         {
             return new List<Place>()
             {
-              //  new Place() { PlaceId=2,Address="Redmond", PlacePrice=200.00M},
-               //  new Place() { PlaceId=3,Address="Bellevue", PlacePrice=100.00M}
+                new Place() {Address="Redmond"},
+                 //new Place() {Address="Bellevue", PlacePrice=100.00M}
 
             };
         }

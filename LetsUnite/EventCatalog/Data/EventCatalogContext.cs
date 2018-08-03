@@ -17,8 +17,9 @@ namespace EventCatalog.Data
 
         public DbSet<Place> Places { get; set; }
         public DbSet<Ticket> Tickets { get; set; }
-        public DbSet<User> Users { get; set; }
+       
         public DbSet<Eventcatalog> Eventcatalogs { get; set; }
+        public DbSet<User> Users { get; set; }
 
         protected override void OnModelCreating(ModelBuilder builder)
         {
@@ -33,7 +34,7 @@ namespace EventCatalog.Data
         {
             builder.ToTable("Catalog");
             builder.Property(c => c.EventId)
-                .ForSqlServerUseSequenceHiLo("catalog_hilo1")
+                .ForSqlServerUseSequenceHiLo("catalog_hilo3")
                 .IsRequired();
             builder.Property(c => c.EventName)
                 .IsRequired();
@@ -58,8 +59,7 @@ namespace EventCatalog.Data
                 .IsRequired();
             builder.Property(c => c.EventCategory)
                 .IsRequired();
-            builder.Property(c => c.TicketId)
-               .IsRequired();
+            
 
         }
 
@@ -67,7 +67,7 @@ namespace EventCatalog.Data
         {
              builder.ToTable("User");
             builder.Property(c => c.UserId)
-                .IsRequired();
+                .ForSqlServerUseSequenceHiLo("User_hilo3");
                 
             builder.Property(c => c.Name)
                 .IsRequired()
@@ -82,9 +82,10 @@ namespace EventCatalog.Data
               .IsRequired()
               .HasMaxLength(100);
 
-            builder.Property(c => c.EventId)
-             .IsRequired()
-             .HasMaxLength(50);
+            builder.HasOne(c => c.Eventcatalog)
+             .WithMany()
+             .HasForeignKey(c => c.EventId);
+            
             builder.Property(c => c.TicketId)
                    .IsRequired();
             builder.Property(c => c.CreditCardNo)
@@ -97,6 +98,7 @@ namespace EventCatalog.Data
         {
             builder.ToTable("Ticket");
             builder.Property(c => c.TicketId)
+                .ForSqlServerUseSequenceHiLo("Ticket_hilo1")
               .IsRequired();
            
 
@@ -108,7 +110,9 @@ namespace EventCatalog.Data
         {
             builder.ToTable("Place");
             builder.Property(c => c.PlaceId)
-              .IsRequired();
+              .ForSqlServerUseSequenceHiLo("Place_hilo1")
+               .IsRequired();
+
             builder.Property(c => c.Address)
                 .IsRequired()
                 .HasMaxLength(50);

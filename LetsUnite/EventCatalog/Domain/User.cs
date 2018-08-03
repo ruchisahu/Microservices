@@ -16,14 +16,14 @@ namespace EventCatalog.Domain
         public string Name { get; set; }
         public string BillingAddress { get; set; }
 
-         public int EventId { get; set; }
+        
        // public List<Eventcatalog> Event { get; set; }
         public int TicketId { get; set; }
         public int CreditCardNo { get; set; }
 
             [ForeignKey("EventId")]
-
-            public Eventcatalog Eventcatalog { get; set; }
+        public int EventId { get; set; }
+        public Eventcatalog Eventcatalog { get; set; }
 
         
      //   public Eventcatalog Event { get; set; }
