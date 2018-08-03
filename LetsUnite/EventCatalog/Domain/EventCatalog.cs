@@ -26,7 +26,7 @@ namespace EventCatalog.Domain
 
         public string Description { get; set; }
 
-        public string Location { get; set; }
+      //  public string Location { get; set; }
 
         [ForeignKey("PlaceId")]
         public int PlaceId { get; set; }

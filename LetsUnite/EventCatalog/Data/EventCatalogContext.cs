@@ -34,14 +34,13 @@ namespace EventCatalog.Data
         {
             builder.ToTable("Catalog");
             builder.Property(c => c.EventId)
-                .ForSqlServerUseSequenceHiLo("catalog_hilo3")
+                .ForSqlServerUseSequenceHiLo("catalog_hilo4")
                 .IsRequired();
             builder.Property(c => c.EventName)
                 .IsRequired();
             builder.Property(c => c.Description)
                  .IsRequired();
-            builder.Property(c => c.Location)
-                .IsRequired();
+           
 
             builder.Property(c => c.PlaceId)
                 .IsRequired();
@@ -67,7 +66,7 @@ namespace EventCatalog.Data
         {
              builder.ToTable("User");
             builder.Property(c => c.UserId)
-                .ForSqlServerUseSequenceHiLo("User_hilo3");
+                .ForSqlServerUseSequenceHiLo("User_hilo4");
                 
             builder.Property(c => c.Name)
                 .IsRequired()
@@ -98,11 +97,9 @@ namespace EventCatalog.Data
         {
             builder.ToTable("Ticket");
             builder.Property(c => c.TicketId)
-                .ForSqlServerUseSequenceHiLo("Ticket_hilo1")
+                .ForSqlServerUseSequenceHiLo("Ticket_hilo4")
               .IsRequired();
            
-
-
 
         }
 
@@ -110,15 +107,26 @@ namespace EventCatalog.Data
         {
             builder.ToTable("Place");
             builder.Property(c => c.PlaceId)
-              .ForSqlServerUseSequenceHiLo("Place_hilo1")
+              .ForSqlServerUseSequenceHiLo("Place_hilo4")
                .IsRequired();
-
+            builder.Property(c => c.PlaceName)
+                .IsRequired()
+                .HasMaxLength(50);
             builder.Property(c => c.Address)
+                .IsRequired()
+                .HasMaxLength(50);
+            builder.Property(c => c.City)
+                .IsRequired()
+                .HasMaxLength(50);
+            builder.Property(c => c.State)
+                .IsRequired()
+                .HasMaxLength(50);
+            builder.Property(c => c.ZipCode)
                 .IsRequired()
                 .HasMaxLength(50);
             builder.Property(c => c.PlacePrice)
               .IsRequired();
-              
+
         }
     }
 }

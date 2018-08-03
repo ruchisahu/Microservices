@@ -8,4 +8,3 @@ c:\users\sankalpg\source\repos\LetsUnite\EventCatalog\obj\Debug\netcoreapp2.0\Ev
 c:\users\sankalpg\source\repos\LetsUnite\EventCatalog\bin\Debug\netcoreapp2.0\EventCatalog.pdb
 c:\users\sankalpg\source\repos\LetsUnite\EventCatalog\obj\Debug\netcoreapp2.0\EventCatalog.dll
 c:\users\sankalpg\source\repos\LetsUnite\EventCatalog\obj\Debug\netcoreapp2.0\EventCatalog.pdb
-C:\Users\sankalpg\source\repos\LetsUnite\EventCatalog\obj\Debug\netcoreapp2.0\EventCatalog.csprojAssemblyReference.cache

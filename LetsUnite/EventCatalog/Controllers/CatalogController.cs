@@ -86,7 +86,7 @@ namespace EventCatalog.Controllers
                 EventId = Event.EventId,
                 EventName = Event.EventName,
                 Description = Event.Description,
-                Location = Event.Location,
+               
                 EventDate=Event.EventDate,
                 EventPrice=Event.EventPrice,
                 EventImageURL=Event.EventImageURL,
