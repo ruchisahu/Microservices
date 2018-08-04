@@ -6,7 +6,7 @@
 
 https://github.com/tigeringarden/Simple-Booking
 
-In this specific service Organizer can add event and see all the related information.
+In this specific service Organizer can add his/her information,event detail and see all the related information.
 
 ### Requirement:
 
