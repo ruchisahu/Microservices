@@ -11,7 +11,9 @@ In this specific service Organizer can add event and see all the related informa
 ### Requirement:
 
 -Visual Studio 2017
+
 -Docker
+
 -swagger
 
 
