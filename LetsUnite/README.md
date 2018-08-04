@@ -14,8 +14,4 @@ In this specific service Organizer can add event and see all the related informa
 -swagger
 
 
-### Contributors:
-
--List of Contributors.
-
--This is an ongoing project and we are still on initial phase.
+## This is an ongoing project and we are still on initial phase.
