@@ -15,9 +15,7 @@ namespace EventCatalog.Domain
         public string Email { get; set; }
         public string Name { get; set; }
         public string BillingAddress { get; set; }
-
-        
-       // public List<Eventcatalog> Event { get; set; }
+                
         public int TicketId { get; set; }
         public int CreditCardNo { get; set; }
 
@@ -26,6 +24,5 @@ namespace EventCatalog.Domain
         public Eventcatalog Eventcatalog { get; set; }
 
         
-     //   public Eventcatalog Event { get; set; }
-    }
+         }
 }

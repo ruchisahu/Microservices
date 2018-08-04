@@ -100,6 +100,50 @@ namespace EventCatalog.Controllers
 
             return Ok(item);
         }
+
+        [HttpPost]
+        [Route("User")]
+        public async Task<IActionResult> CreateUserAsync([FromBody] User User)
+        {
+            var item = new User
+            {
+                UserId = User.UserId,
+                Name = User.Name,
+                Password = User.Password,
+                Email=User.Email,
+                BillingAddress=User.BillingAddress,
+                TicketId=User.TicketId,
+                CreditCardNo=User.CreditCardNo,
+                EventId=User.EventId,
+            
+
+            };
+            _catalogContext.Users.Add(item);
+            await _catalogContext.SaveChangesAsync();
+
+            return Ok(item);
+        }
+        [HttpPost]
+        [Route("Place")]
+        public async Task<IActionResult> CreatePlaceAsync([FromBody] Place Place)
+        {
+            var item = new Place
+            {
+                PlaceId = Place.PlaceId,
+                PlaceName = Place.PlaceName,
+                Address=Place.Address,
+                City=Place.City,
+                State=Place.State,
+                ZipCode=Place.ZipCode,
+                PlacePrice=Place.PlacePrice,
+                
+
+            };
+            _catalogContext.Places.Add(item);
+            await _catalogContext.SaveChangesAsync();
+
+            return Ok(item);
+        }
     }
 }
             
