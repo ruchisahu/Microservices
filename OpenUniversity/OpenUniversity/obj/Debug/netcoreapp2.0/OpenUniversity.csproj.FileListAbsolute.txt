@@ -1,0 +1,10 @@
+C:\Users\sankalpg\source\ASP\OpenUniversity\OpenUniversity\bin\Debug\netcoreapp2.0\OpenUniversity.deps.json
+C:\Users\sankalpg\source\ASP\OpenUniversity\OpenUniversity\bin\Debug\netcoreapp2.0\OpenUniversity.runtimeconfig.json
+C:\Users\sankalpg\source\ASP\OpenUniversity\OpenUniversity\bin\Debug\netcoreapp2.0\OpenUniversity.runtimeconfig.dev.json
+C:\Users\sankalpg\source\ASP\OpenUniversity\OpenUniversity\bin\Debug\netcoreapp2.0\OpenUniversity.dll
+C:\Users\sankalpg\source\ASP\OpenUniversity\OpenUniversity\bin\Debug\netcoreapp2.0\OpenUniversity.pdb
+C:\Users\sankalpg\source\ASP\OpenUniversity\OpenUniversity\obj\Debug\netcoreapp2.0\OpenUniversity.csproj.CoreCompileInputs.cache
+C:\Users\sankalpg\source\ASP\OpenUniversity\OpenUniversity\obj\Debug\netcoreapp2.0\OpenUniversity.AssemblyInfoInputs.cache
+C:\Users\sankalpg\source\ASP\OpenUniversity\OpenUniversity\obj\Debug\netcoreapp2.0\OpenUniversity.AssemblyInfo.cs
+C:\Users\sankalpg\source\ASP\OpenUniversity\OpenUniversity\obj\Debug\netcoreapp2.0\OpenUniversity.dll
+C:\Users\sankalpg\source\ASP\OpenUniversity\OpenUniversity\obj\Debug\netcoreapp2.0\OpenUniversity.pdb
