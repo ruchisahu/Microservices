@@ -16,5 +16,8 @@ In this specific service Organizer can add his/her information,event detail and 
 
 -swagger
 
+## Screenshots:
+-There are view screenshots:
+https://github.com/ruchisahu/Microservices/tree/master/LetsUnite/Screenshots
 
 ## This is an ongoing project and we are still on initial phase.
